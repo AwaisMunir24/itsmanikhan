@@ -1,0 +1,32 @@
+.contact .title , .content{
+color: black;
+}
+.contact .container-fluid{
+    padding:100px 0px;
+}
+.contact-para{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+    font-weight: 400;
+
+}
+.titletext{
+    color: #111;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    text-align: start;
+}
+.icon{
+    margin-right: 15px;
+}
+.contact-innersec{
+    margin-bottom: 20px;
+}
+.form-control:focus{
+outline: none;
+}

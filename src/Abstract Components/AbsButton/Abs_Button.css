@@ -1,0 +1,17 @@
+.Button{
+    background: linear-gradient(45deg,#3060e5,#048eea 45%,#3ee09f);
+    border: none;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 25px;
+}
+.Button:hover{
+    background: none;
+    background: #3ee09f;
+    background: -webkit-linear-gradient(45deg, #3ee09f 0%, #048eea 55%, #3060e5 100%);
+    background: linear-gradient(45deg, #3ee09f 0%, #048eea 55%, #3060e5 100%);
+    border-color: #3060e5;
+}

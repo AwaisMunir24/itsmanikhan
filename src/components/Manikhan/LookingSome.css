@@ -1,0 +1,162 @@
+.looking-someone h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    color:#111111;
+    margin-bottom:25px !important;
+}
+.some-about{
+    margin:100px 0px;
+}
+section{
+    padding:0px 90px;
+}
+.para-1 , .para-2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #111111;
+    font-weight: 400;  
+}
+.para-2{
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+}
+.manikhanimg{
+    border-radius: 50%;
+    width: 100%; 
+}
+.mani-khan-heading h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    color: #111111;
+    font-weight: 700;
+}
+.mani-khan-heading h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#3060e5,#048eea 45%,#3ee09f);
+    -webkit-background-clip: text;
+    color: #3060e5!important;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: start; 
+}
+.mani-pro-img{
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 200px;
+
+}
+.mani-content-1 , .mani-content-2 , .mani-content-3 , .mani-content-4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+}
+.left-sec{
+    padding-right: 30px !important;
+}
+.right-sec{
+    padding:0px 25px !important;
+}
+@media screen and (max-width: 1200px) {
+
+    section {
+        padding: 0px 75px;
+    }
+    .left-sec{
+        padding:0px 25px !important;
+    }
+    .some-about {
+        margin: 70px 0px;
+    }
+    .mani-khan-heading h3{
+       font-size: 28px; 
+       line-height: 38px;
+    }
+    .mani-khan-heading h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mani-pro-img{
+        width: 114px;
+    }
+    .looking-someone h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .para-1, .para-2{
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 992px) {
+    .looking-someone{
+        text-align: center;
+    }
+    .main-wrapper{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .some-about {
+        margin: 100px 0px;
+    }
+    .looking-someone h2{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .left-sec{
+        margin-bottom: 50px;
+    }
+    .mani-pro-img {
+        width: 200px;
+        margin-right: 0px;
+    }
+    section {
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+       
+}
+@media screen and (max-width: 576px) {
+    .looking-someone h2 {
+        font-size: 34px;
+    line-height: 42px;
+    }
+    .para-1, .para-2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mani-khan-heading h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .mani-khan-heading h4 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+       
+}
+@media screen and (max-width: 400px) {
+    .looking-someone h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    section {
+        padding: 0 30px;
+    }
+}

@@ -1,0 +1,35 @@
+.testimonials , .test-left-side{
+    background-color: #000;
+   padding:100px !important;
+}
+.testimonials{
+    padding:0px !important;
+}
+.slick-next:before, .slick-prev:before{
+    display: none;
+}
+.slick-dots li button:before{
+    color: white;
+}
+.slick-dots li button:before{
+    color: grey !important;
+}
+.testi-imagess{
+    background-image: url("../../Assessts/Photos/testimonial.jpg");
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+@media screen and (max-width: 1400px) {
+   .test-left-side{
+        padding:100px 70px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .test-left-side{
+        padding:100px 50px !important;
+    }
+    .testi-imagess{
+        padding:150px 0px;
+    }
+}

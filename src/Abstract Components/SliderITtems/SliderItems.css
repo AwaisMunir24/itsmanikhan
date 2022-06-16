@@ -1,0 +1,51 @@
+.testiicon{
+    border-radius: 50%;
+    height: 150px;
+}
+.testiimgsec{
+    margin-bottom: 20px;
+    
+}
+.testiname{
+    color: #fff;
+    font-family: Josefin Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-transform: capitalize;  
+}
+.testipara{
+    background: none;
+    color: #fff;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    height: 100px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+.testipara{
+    font-size: 18px;
+    line-height: 26px;
+}
+   
+}
+@media screen and (max-width: 1024px) {
+    .content{
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
+    .testipara {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .testipara {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+main {
+  width: calc(100% - 60px);
+}
+
+
+
+@media screen and (max-width: 500px) {
+  main{
+    width:100%;
+  }
+}

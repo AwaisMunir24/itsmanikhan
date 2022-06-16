@@ -1,0 +1,16 @@
+.benefit-title{
+    color: #fff;
+    font-family: Josefin Sans,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 25px 0 15px; 
+}
+.benefits-content{
+    color: #fff;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    word-spacing: normal;
+    margin-bottom: 16px;
+}

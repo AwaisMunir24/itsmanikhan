@@ -1,0 +1,59 @@
+.FiverUpwork-sec{
+    background: -webkit-linear-gradient(left,#3060e5,#048eea 45%,#3ee09f);
+    padding:0;
+}
+.discuss , .champion{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.discuss{
+    font-size: 32px;
+    line-height: 42px;
+    text-align: right;
+}
+.champion{
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+}
+.fiverUpwork-bg img{
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .column-width{
+    width: 100% !important;
+    }  
+    .discuss , .champion {
+       text-align: center !important;
+    }
+    .champion{
+        font-size: 40px;
+    }
+    .discuss{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .discuss , .champion {
+        margin:0px;
+    }
+    .discuss{
+        font-size: 20px;
+    }
+    .champion{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .discuss{
+        font-size: 18px;
+    }
+    .champion{
+        font-size: 30px;
+    }
+}

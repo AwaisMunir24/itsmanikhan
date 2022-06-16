@@ -1,0 +1,19 @@
+.process .title{
+    color: black;
+}
+.process .content {
+    color: black;
+}
+.process{
+    padding:100px
+}
+@media screen and (max-width: 1400px) {
+    .process {
+        padding: 100px 70px;
+    } 
+}
+@media screen and (max-width: 992px) {
+    .process {
+        padding: 100px 50px;
+    } 
+}

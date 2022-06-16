@@ -1,0 +1,83 @@
+.heading{
+    color: #fff;
+    font-family: Josefin Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+.subhead{
+    color: #fff;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.line{
+    background: linear-gradient(45deg,#3060e5,#048eea 45%,#3ee09f);
+    border-bottom-width: 3px;
+    display: block;
+    height: 3px;
+    margin: 5px auto 20px;
+    width: 50px; 
+}
+.left-side{
+    background-color: #111;
+    padding: 100px!important;
+}
+.benefits-sections{
+    padding:0px !important;
+}
+/* .pc_img{
+    background-image: url(../../Assessts/Photos/benifit-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:150px  0px;
+} */
+.benefit-img{
+    background-image: url(../../Assessts/Photos/benifit-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+   
+}
+@media screen and (max-width: 1400px) {
+    .left-side{
+        padding:100px 70px !important;
+    }   
+}
+  
+@media screen and (max-width: 1200px) {
+    .left-side{
+        padding:100px 70px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .benefit-img{
+        padding:300px 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .benefit-img{
+        padding:150px 0px;
+    }
+    .left-side{
+        padding:100px 50px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .benefit-img{
+        padding:150px 50px !important;
+    } 
+}
+@media screen and (max-width: 400px) {
+    .benefit-img{
+        padding:150px 25px !important;
+    }
+    .left-side{
+        padding:100px 30px !important;
+    }
+}
+
