@@ -48,7 +48,7 @@ const[process,setProcess]=useState([
 
 return(
 <>
-<section className='process'>
+<section className='process' id='process'>
 <div className='container-fluid'>
 <div className='row'>
 <div className='col-12'>

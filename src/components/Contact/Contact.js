@@ -9,7 +9,7 @@ import Abs_Button from "../../Abstract Components/AbsButton/Abs_Button";
 const Contact = () => {
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="container-fluid">
           <div className="row justify-content-center text-center">
             <div className="col-lg-7">

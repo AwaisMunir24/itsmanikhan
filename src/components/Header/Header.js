@@ -5,6 +5,7 @@ import headerlogo from "../../Assessts/Photos/navbar-white-foot-logo.png";
 import { MenuData } from "./Menudata";
 import navlogo from "../../Assessts/Photos/navbar-logo.png";
 import { MobileData } from "./Mobiledata";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [Toogle, setToogle] = useState(false);
@@ -44,13 +45,13 @@ const Header = () => {
                     {MenuData.map((e,idx) => (
                       <>
                         <li className="nav-item" key={idx}>
-                          <a
+                          <Link
                             to={e.path}
                             className={e.classname}
                             onClick={handleToggle}
                           >
                             {e.name}
-                          </a>
+                          </Link>
                         </li>
                       </>
                     ))}
@@ -88,13 +89,13 @@ const Header = () => {
                   {MobileData.map((e,idx) => (
                 <>
                   <li className="nav-item" key={idx}>
-                    <a
+                    <Link
                       to={e.path}
                       className={e.classname}
                       onClick={handleToggle}
                     >
                       {e.name}
-                    </a>
+                    </Link>
                   </li>
                 </>
               ))}

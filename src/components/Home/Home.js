@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import bgvideo from "../../Assessts/video/Source-Code-4733.733e41a86724ba124249.mp4";
 import maniImg from "../../Assessts/Photos/mani-khan.png";
 import "./Home.css";
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
@@ -36,16 +37,16 @@ const Home = () => {
                 </p>
 
                 <div className="d-flex">
-                  <a to="Portfolio">
+                  <Link to="portfolio">
                     <button className="view-my-portfolio">
                       View My Portfolio
                     </button>
-                  </a>
-                  <a to="ProductDicsussion">
+                  </Link>
+                  <Link to="contact">
                     <button className="discuss-your-project">
                       Discuss Your Project
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

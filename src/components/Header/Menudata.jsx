@@ -1,43 +1,58 @@
-export const MenuData=
-[
-   {
-    id:1,
-    name:"Home",
+export const MenuData = [
+  {
+    id: 1,
+    name: "Home",
     classname: "nav-link",
-   },
-   {
-    id:2,
-    name:"About",
+
+    path: "home",
+  },
+  {
+    id: 2,
+    name: "About",
     classname: "nav-link",
-   },
-   {
-    id:3,
-    name:"why Work With Me",
+
+    path: "about",
+  },
+  {
+    id: 3,
+    name: "why Work With Me",
     classname: "nav-link",
-   },
-   {
-    id:4,
-    name:"Portfolio",
+
+    path: "workwithme",
+  },
+  {
+    id: 4,
+    name: "Portfolio",
     classname: "nav-link",
-   },
-   {
-    id:5,
-    name:"Portfolio",
+
+    path: "portfolio",
+  },
+  {
+    id: 5,
+    name: "My Services",
     classname: "nav-link",
-   },
-   {
-    id:6,
-    name:"Working Process",
+
+    path: "services",
+  },
+  {
+    id: 6,
+    name: "Working Process",
     classname: "nav-link",
-   },
-   {
-    id:7,
-    name:"Testimonials",
+
+    path: "process",
+  },
+  {
+    id: 7,
+    name: "Testimonials",
     classname: "nav-link",
-   },
-   {
-    id:8,
-    name:"Contact Me",
+
+    path: "testimonials",
+  },
+  {
+    id: 8,
+    name: "Contact Me",
     classname: "nav-link",
-   },
-]
+
+    path: "contact",
+  },
+];

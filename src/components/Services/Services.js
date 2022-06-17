@@ -50,7 +50,7 @@ const [data,settdata]=useState(
 return(
 
 <>
-<section className='myservies'>
+<section className='myservies' id='services'>
 <div className='container-fluid'>
 <div className='row'>
 <div className='col-lg-12 services-box'>

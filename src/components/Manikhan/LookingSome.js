@@ -5,7 +5,7 @@ import manikhan from "../../Assessts/Photos/mani-khan.png";
 const LookingSome = () => {
   return (
     <>
-      <section className="some-about">
+      <section className="some-about" id="about">
         <div className="looking-someone">
           <div className="contianer-fluid">
             <div className="row">

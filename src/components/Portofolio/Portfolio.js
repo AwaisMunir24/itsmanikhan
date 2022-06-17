@@ -9,17 +9,21 @@ const Portfolio = () => {
     // console.log("HEllo",noOfElements);
   };
   const[actImg,setActImg]=useState();
-  const [pop, setPop] = useState(false);
+  const [pop, setPop] = useState(true);
   const slice = data.cardData.slice(0, noOfElements);
   const viewImage = (id) => {
     let picset = data.cardData.find((img) => img.id === id);
     console.log("new Img",picset);
+    setActImg(picset);
     setPop(!pop);
-    setActImg(picset)
+    console.log("setNew Image",actImg)
   };
+    console.log("setNew Image",actImg)
+
+  
   return (
     <>
-      <section className="portfolio">
+      <section className="portfolio" id="portfolio">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
@@ -87,8 +91,8 @@ const Portfolio = () => {
                 </div>
                 <div className="image_gallary">
                   <div className="image_gallary_img">
-                    <img  src={actImg.img} className="h-100 img-fluid" alt="" />
-                   
+                   <img  src={actImg.img} className="h-100 img-fluid" alt="portfolioImg" />
+                    
                     <div className="closeimgbox">
                       <i
                         className="fa-solid fa-xmark"
