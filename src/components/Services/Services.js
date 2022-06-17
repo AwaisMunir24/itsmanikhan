@@ -53,7 +53,7 @@ return(
 <section className='myservies'>
 <div className='container-fluid'>
 <div className='row'>
-<div className='col-lg-12'>
+<div className='col-lg-12 services-box'>
 <Abs_Head
 title={"MY SERVICES"}
 content={"Stuff I’m Really Good At"}

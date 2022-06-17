@@ -8,11 +8,14 @@ const Portfolio = () => {
     setnoOfElements(noOfElements + noOfElements);
     // console.log("HEllo",noOfElements);
   };
+  const[actImg,setActImg]=useState();
   const [pop, setPop] = useState(false);
   const slice = data.cardData.slice(0, noOfElements);
   const viewImage = (id) => {
-    console.log("id", id);
+    let picset = data.cardData.find((img) => img.id === id);
+    console.log("new Img",picset);
     setPop(!pop);
+    setActImg(picset)
   };
   return (
     <>
@@ -73,13 +76,30 @@ const Portfolio = () => {
           </div>
         </div>
         {pop ? (
-          <div className="popup">
-            <h1>hello</h1>
-            <p>lorem how are you man </p>
-          </div>
-        ) : (
           ""
+        ) : (
+          <>
+                <div
+                  className="image_gallary_cover"
+                  onClick={() => setPop(!pop)}
+                >
+                  {" "}
+                </div>
+                <div className="image_gallary">
+                  <div className="image_gallary_img">
+                    <img  src={actImg.img} className="h-100 img-fluid" alt="" />
+                   
+                    <div className="closeimgbox">
+                      <i
+                        className="fa-solid fa-xmark"
+                        onClick={() => setPop(!pop)}
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </>
         )}
+        <div className=""></div>
       </section>
     </>
   );

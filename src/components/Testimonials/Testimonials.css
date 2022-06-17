@@ -20,6 +20,9 @@
     background-repeat: no-repeat!important;
     background-size: cover!important;
 }
+.test-left-side h4{
+    color: #fff;
+}
 @media screen and (max-width: 1400px) {
    .test-left-side{
         padding:100px 70px !important;
