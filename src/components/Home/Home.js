@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
-      <section className="Home" id="Home">
+      <section className="Home" id="home">
       <div className="overlay-color"></div>
       <video controls loop autoPlay muted className="video-bg">
         <source src={bgvideo} type="video/mp4" />
